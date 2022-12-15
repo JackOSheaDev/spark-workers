@@ -6,6 +6,7 @@ import json
 app = Flask(__name__)
 
 # gets the api key
+#yes
 def get_api_key() -> str:
     secret = os.environ.get("COMPUTE_API_KEY")
     if secret:
